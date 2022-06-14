@@ -1,0 +1,79 @@
+.main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  /*justify-content: space-evenly;*/
+  height: calc(100vh - 60px);
+}
+
+.text {
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+
+@media only screen and (max-width: 700px) {
+  div.main {
+    flex-direction: column;
+    margin-top: 40px;
+    height: calc(100vh - 40px);
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+
+.block1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/media/mountains.jpeg");
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 0px;
+  height: calc(100vh - 60px);
+}
+
+.block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/media/flashlight.jpg");
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 0px;
+  height: calc(100vh - 60px);
+}
+
+.block3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/media/trail.jpeg");
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 0px;
+  height: calc(100vh - 60px);
+}
+
+.block4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/media/fox.jpeg");
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 0px;
+  height: calc(100vh - 60px);
+}
+
+.block5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/media/clouds.jpeg");
+  background-size: cover;
+  background-position: center;
+  flex: 1 1 0px;
+  height: calc(100vh - 60px);
+}

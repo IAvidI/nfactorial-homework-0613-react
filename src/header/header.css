@@ -1,0 +1,20 @@
+.header-wrapper {
+  background-color: darkgrey;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 60px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-wrapper {
+    height: 40px;
+  }
+}
