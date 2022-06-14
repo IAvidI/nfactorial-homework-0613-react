@@ -8,7 +8,12 @@ const Header = () => {
     <>
       <div className="header-wrapper">
         <div className="header-row">
-          <IconMenu className="icon" />
+          <div className="icon-search">
+            <IconMenu className="icon" />
+            <span class="input">
+              <input type="text" placeholder="Say hi!" />
+            </span>
+          </div>
           <div>{format(new Date(), "d.MM.y  HH:mm")}</div>
         </div>
       </div>

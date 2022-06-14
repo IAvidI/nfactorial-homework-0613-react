@@ -9,6 +9,12 @@
   justify-content: center;
 }
 
+.icon-search {
+  /* height: 60px; */
+  align-items: center;
+  justify-content: center;
+}
+
 .header-row {
   width: calc(100vw - 30px);
   display: flex;
@@ -19,6 +25,16 @@
 
 .icon {
   width: 35px;
+}
+
+.input {
+  position: relative;
+
+  /* // the width of the input border */
+  padding: 10px;
+
+  /* // we want rounded corners no matter the size of the field */
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 700px) {
